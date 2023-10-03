@@ -1,0 +1,246 @@
+
+body {
+    
+    background-color: #fcfcfc;
+    font-family: monospace;
+}
+
+.header {
+    width: 80%;
+    height: 80%;
+    background-color: #fcfcfc;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted;
+    color: #000000;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0;
+    font-size: 22px;
+    color: #000000;
+}
+.navigation {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.main {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.novel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.novel-item {
+    flex: 0 0 calc(100% / 7);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.novel-item img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.novel-item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000000;
+}
+.novel-item h3 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.novel-item p {
+    font-size: 14px;
+}
+
+.hari {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hari a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jadwal {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer {
+    font-family: monospace;
+    font-size: 14px;
+    border-top: 1px dotted;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #000000;
+}
+.cover{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    
+}
+.cover-item{
+    flex: 0 0 calc(100% / 4);
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.cover-item img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.sinopsis{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.sinopsis-toc{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.desc-toc{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+
+}
+.desc-toc h3 a{
+    text-decoration: none;
+    color: #000000;
+}
+.deskripsi{
+    margin-right: 20px;
+    text-align:justify;
+    justify-content:space-between;
+    display:grid;
+
+}
+.deskripsi h3 a{
+    text-decoration: none;
+}
+.toc-list{
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    height: 10px;
+}
+.toc-list h3 a{
+    text-decoration: none;
+    color: black;
+}
+#isi-chap{
+    width: 55%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.toc-chap{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 10px;
+}
+.toc-chap p a{
+    text-decoration: none;
+    color: #000000;
+}
+.nextprev{
+    margin-right: 10px;
+}
+.mid-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    border: 5px solid #ffffff; 
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333; /* Warna teks */
+}
+
+.profile p {
+    font-size: 18px;
+    color: #666; 
+}
+
+
+.profile-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.profile-margin {
+    margin-bottom: 20px;
+}
